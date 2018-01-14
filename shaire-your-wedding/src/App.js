@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import flowers from './TopRightCorner.png';
 import bottomflowers from './BottomLeft.png';
-import backdrop from './old-wood-board-texture.jpg'
+import backdrop from './old-wood-board-texture.jpg';
 import './App.css';
 import Overlaymap from './Overlaymap.js';
-import Weddingcake from './Weddingcake.js';
-import Lawngames from './lawngames.js';
+import Eventimages from './Eventimages.js';
+import Basic from './basic';
+import MapContainer from './map/map-container';
 
 class App extends Component {
   render() {
@@ -15,13 +16,11 @@ class App extends Component {
         <header className="App-header">
           <h1 align="left" className="App-title">Shaire Our Wedding!</h1>
         </header>
-        <p className="App-intro">
+        <div className="App-intro">
             <div className="App-map" align="center">
-                <div className="App-map">
-                  <Lawngames />
-                </div>
+                  <Basic />
             </div>
-        </p>
+        </div>
       </div>
     );
   }

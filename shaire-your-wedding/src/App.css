@@ -15,8 +15,9 @@
   align-items: left;
 }
 .App-map{
-  padding: 50px;
+  padding: 100px;
   align-items: center;
+  width: 500px;
 }
 
 .App-header {

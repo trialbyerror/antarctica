@@ -3,16 +3,20 @@ import './Overlaymap.css';
 import OurMap from './map.jpg';
 
 class Overlaymap extends Component {
+  constructor(props){
+    super(props);
+  }
+
   render() {
     return (
       <div className="Overlaymap">
         <h1 className="Overlaymap-title">
-        Header
+        {this.props.name}
         </h1>
         <img src={OurMap} className="Overlaymap-map" alt="Map" />
         <h2 align="center" className="Overlaymap-discription">
-        This is a discription such as what will be on our map in the end
-        </h2>
+          {this.props.description}
+         </h2>
       </div>
     );
   }
