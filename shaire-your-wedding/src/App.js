@@ -4,7 +4,8 @@ import bottomflowers from './BottomLeft.png';
 import backdrop from './old-wood-board-texture.jpg'
 import './App.css';
 import Overlaymap from './Overlaymap.js';
-import Eventimages from './Eventimages.js';
+import Weddingcake from './Weddingcake.js';
+import Lawngames from './lawngames.js';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
         <p className="App-intro">
             <div className="App-map" align="center">
                 <div className="App-map">
-                  <Overlaymap />
+                  <Lawngames />
                 </div>
             </div>
         </p>
