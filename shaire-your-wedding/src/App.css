@@ -6,10 +6,16 @@
 
 .App-flowers {
   top: 0px;
-  height: 100px;
+  height: 300px;
   align-items: right;
 }
+.App-bottom-flowers {
+  height: 300px;
+  bottom: 0px;
+  align-items: left;
+}
 .App-map{
+  padding: 50px;
   align-items: center;
 }
 
@@ -24,14 +30,15 @@
 
 .App-title {
   text-align: left;
-  padding: 25px;
+  padding: 30px;
   font-family: Tangerine;
   font-size: 4em;
   font-color:  #f9dac9;
 }
 
 .App-intro {
-  font-size: large;
+  height: 1000px;
+  background-image: url("old-wood-board-texture.jpg");
 }
 
 @keyframes App-logo-spin {
