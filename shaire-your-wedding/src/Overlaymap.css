@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Kavivanar');
+
+.Overlaymap {
+  background-color: lightblue;
+  width: 500px;
+}
+
+.Overlaymap-backdrop{
+  background-color: lightblue;
+}
+
+.Overlaymap-map{
+  /*object-position: center top;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 300px;*/
+  width: 80%;
+}
+
+.Overlaymap-title {
+  text-align: center;
+  padding: 25px;
+  font-family: Kavivanar;
+  font-size: 3em;
+  font-color:  #f9dac9;
+}
+.Overlaymap-discription{
+  text-align: center;
+  font-family: Kavivanar;
+  font-size: 1em;
+}
+
+.Overlaymap-intro {
+  font-size: large;
+}
